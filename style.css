@@ -1,0 +1,58 @@
+.body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  overflow: hidden !important;
+}
+
+.wrapper {
+  display: block;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  background: white;
+  background: -webkit-radial-gradient(white, #c4c4c4);
+  background: -o-radial-gradient(white, #c4c4c4);
+  background: -moz-radial-gradient(white, #c4c4c4);
+  background: radial-gradient(white, #c4c4c4);
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.text-wrapper {
+  padding-top: 38vh;
+  text-align: center;
+  flex: 1;
+}
+
+p.title {
+  display: none;
+  font-family: 'Palanquin Dark', sans-serif;
+  font-size: 4rem;
+  margin-bottom: 0rem;
+  line-height: 0.75;
+}
+
+p.title .the {
+  font-size: 2.67rem;
+}
+
+p.caption {
+  display: none;
+  font-family: 'Palanquin Dark', sans-serif;
+  font-size: 1rem;
+  text-transform: uppercase;
+  transform: translateY(-1rem);
+}
+
+.underline {
+  height: 0.5rem;
+  width: 16rem;
+  display: inline-block;
+  background: #47b4ff;
+  background: -webkit-linear-gradient(left top, #47b4ff, #752bff);
+  background: -o-linear-gradient(bottom right, #47b4ff, #752bff);
+  background: -moz-linear-gradient(bottom right, #47b4ff, #752bff);
+  background: linear-gradient(to bottom right, #47b4ff, #752bff);
+}
